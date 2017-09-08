@@ -1,0 +1,12 @@
+{
+  "name": "root/app",
+  "require": {
+    "ehime/hello-world": "^1.0"
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  }
+}

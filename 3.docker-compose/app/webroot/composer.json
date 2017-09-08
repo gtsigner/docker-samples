@@ -1,0 +1,20 @@
+{
+    "name": "docker/demo",
+    "description": "docker php env",
+    "type": "framework",
+    "keywords": [
+        "test"
+    ],
+    "homepage": "https://blog.oeynet.com/",
+    "license": "Apache2",
+    "authors": [
+        {
+            "name": "godtoy",
+            "email": "zhaojunlike@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "minimum-stability": "dev"
+}

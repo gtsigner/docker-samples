@@ -1,0 +1,26 @@
+{
+    "name": "ehime/hello-world",
+    "description": "Sample Composer project",
+    "keywords":    ["helloworld", "sample", "test"],
+    "version":     "1.0.5",
+    "type":        "library",
+    "license":     "MIT",
+    "authors": [
+        {
+            "name": "Jd Daniel",
+            "email": "dodomeki@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.3.5",
+        "mockery/mockery": "0.8.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "HelloWorld": "src/"
+        }
+    }
+}

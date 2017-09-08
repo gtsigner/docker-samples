@@ -1,0 +1,9 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea
+Uploads/app/*
+Uploads/public/*
+Uploads/banner/*
+Uploads/package/*
+Public/info.php
+Application/Runtime/*
+*.md

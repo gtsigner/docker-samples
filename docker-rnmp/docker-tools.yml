@@ -1,0 +1,23 @@
+version: 3.0
+service:
+##附加扩展安装器
+##composer构建工具，官方的composer中得php未编译bcmath
+  composer:
+    #image: composer:1.4.2
+    image: zhaojunlike/composer:5.6-latest
+    #build: ./dockerfiles/composer/
+    volumes:
+    #网站目录
+      - ./app:/app:rw
+    working_dir: /app/webroot
+    command: composer install
+
+  bower:
+    image: digitallyseamless/nodejs-bower-grunt
+    volumes:
+      - ./app:/app:rw
+    working_dir: /app/webroot
+    deploy:
+      restart_policy:
+        condition: none
+    command: bower install

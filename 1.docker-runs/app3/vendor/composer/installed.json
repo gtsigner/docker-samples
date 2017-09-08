@@ -1,0 +1,49 @@
+[
+    {
+        "name": "ehime/hello-world",
+        "version": "1.0.5",
+        "version_normalized": "1.0.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ehime/hello-world.git",
+            "reference": "b1c8cdd2c11272d8c5deec7816e51fa5374217c1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/ehime/hello-world/b1c8cdd2c11272d8c5deec7816e51fa5374217c1.zip",
+            "reference": "b1c8cdd2c11272d8c5deec7816e51fa5374217c1",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "mockery/mockery": "0.8.*",
+            "phpunit/phpunit": "4.3.5"
+        },
+        "time": "2015-07-31T17:53:36+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "HelloWorld": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jd Daniel",
+                "email": "dodomeki@gmail.com"
+            }
+        ],
+        "description": "Sample Composer project",
+        "keywords": [
+            "helloworld",
+            "sample",
+            "test"
+        ]
+    }
+]
